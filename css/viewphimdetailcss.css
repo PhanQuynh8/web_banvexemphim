@@ -1,0 +1,26 @@
+.col-4 img{
+    width: 320px;
+    height: 500px;
+}
+.row{
+    margin-top: 70px;
+}
+.phim-detail{
+    list-style-type: none;
+    font-size: 20px;
+}
+.phim-detail li{
+   padding: 10px;
+}
+.col-8 h1{
+    margin-left: 40px;
+    font-size: 35px;
+    font-style:initial;
+}
+.col-left{
+    color: teal;
+}
+.button--teal{
+    margin-top: 35px;
+    padding-left: 0px;
+}

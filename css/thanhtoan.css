@@ -1,0 +1,43 @@
+.giohang{
+    height: 600px;
+    width: 500;
+    margin-top: 50px;
+    border: 3px solid rgb(117, 180, 21);
+    padding:30px;
+   
+}
+.table-borderless{
+    color: white;
+    
+}
+.bang{
+    margin-bottom:100px;
+
+}
+div.right{
+    padding: 10px;
+    float: right;
+}
+.quytrinh{
+    height: 80px;
+    margin-left: 250px;
+
+}
+.cac-buoc{
+    list-style-type: none;
+}
+.qt{
+    float: left;
+    width: 190px;
+    height: 45px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+body{
+    background-image: url(https://img.freepik.com/free-photo/solid-concrete-wall-textured-backdrop_53876-129493.jpg?w=360);
+}
+.container{
+    color: white;
+}

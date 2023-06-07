@@ -1,0 +1,47 @@
+.card{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 6px 8px 2px rgba(22, 22, 26, 0.18);
+    width: auto;
+    margin: 0 0.5em;
+    height: 200px;
+    width: 250px;
+    float: left;
+
+    
+ }
+ .list-time-cinema{
+    float: left;
+ }
+ .item-phim-gio{
+    list-style-type: none;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+ }
+ .item-phim-gio li{
+    float: left;
+    margin-left: 15px;
+    padding: 10px;   
+ }
+ 
+
+.lichchieuchinhanh{
+    padding: 0px;
+}
+.phangio{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 6px 8px 2px rgba(22, 22, 26, 0.18);
+    margin: 0 0em;
+    height: 200px;
+    width: 680px;
+    float: left;
+}
+.gio-chieu:hover{
+    background-color: white;
+    color: black;
+}
+.thongtinngay h3{
+    border: 5px solid black;
+}

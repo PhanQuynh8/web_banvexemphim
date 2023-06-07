@@ -1,0 +1,24 @@
+.quytrinh div a{
+  padding: 15px;
+  float: left;
+  width: 150px;
+  text-decoration: none;
+  padding-bottom: 30px;
+}
+.quytrinh div{
+    float: left;
+    width: 150px;
+    height: 50px;
+    margin-left: 50px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.quytrinh {
+float: left;
+
+
+}

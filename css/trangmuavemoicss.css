@@ -1,0 +1,70 @@
+
+.cac-buoc{
+    list-style-type: none;
+}
+.qt{
+    float: left;
+    width: 190px;
+    height: 45px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+.quytrinh{
+    height: 80px;
+    margin-left: 250px;
+
+}
+body {
+    background-image: url(https://img.freepik.com/free-photo/solid-concrete-wall-textured-backdrop_53876-129493.jpg?w=360);
+}
+.hinh-anh-phim{
+    width: 140px;
+    height: 200px;
+}
+.thong-tin-ve-phim{
+    color: white;
+}
+#ten-phim{
+    color: greenyellow;
+}
+.giohang {
+    background-color: gray;
+}
+.sl-ve{
+    height: 450px;
+    width: 500;
+    margin-top: 50px;
+    border: 3px solid greenyellow;
+    padding:30px;
+   
+}
+.chon-ghe{
+    width: 150px;
+    margin-left: 975px;
+}
+.table-borderless{
+    color: white;
+}
+.bang-ve td,th{
+    color: white;
+}
+.bang-ve{
+    margin-bottom:100px;
+}
+#sl{
+    width: 39px;
+    height: 39px;
+    text-align: center;
+}
+#cong{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+#tru{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}

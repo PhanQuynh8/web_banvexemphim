@@ -1,0 +1,147 @@
+/*navbar*/
+@media(max-width: 992px){
+    .mobileMenu{
+       position: fixed;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       margin: auto;
+       transform: translateX(-100%);
+       transition: all ease 0.25s;
+    }
+    .open{
+       transform: translateX(0);
+    }
+ }
+ .body{
+    width: 100%;
+    height: 100%;
+ 
+ }
+ /*card*/
+ .card{
+    border: none;
+    border-radius: 0;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    width: auto;
+    margin: 0 0.5em;
+    height: 400px;
+ }
+ .carousel-inner{
+    padding: 1em;
+ }
+ .carousel-control-prev, .carousel-control-next{
+    background-color: #e1e1e1;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top:50%;
+    transform: translateY(-50%);
+    transition-duration: 0s;
+ }
+ .carousel-control-prev span, 
+ .carousel-control-next span{
+    width: 1.5rem;
+    height: 1.5rem;
+ }
+ .image-wrapper{
+    height: 65vw;
+    margin: 0 auto;
+    max-width: 100%;
+    /* display:  flex;
+    align-content: flex-start;
+    justify-content: center; */
+ } 
+ @media screen and (min-width: 550px) {
+    .carousel-inner{
+       display: flex;
+    }
+    .cards-wrapper{
+       display: flex;
+       column-count: 2;
+    }  
+    .card img{
+       height: 11em;
+    }
+    .image-wrapper{
+       height: 22vw;
+       margin: 0 auto;
+       width: 100%;
+       
+       /* display:  flex;
+       align-content: center;
+       justify-content: center;*/
+    } 
+    .card-title{
+       text-align: center;
+    }
+    
+ }
+ @media screen and (max-width: 549px) {
+    .card:not(:first-child){
+       display: none;
+    }
+ }
+ 
+ 
+ .image-wrapper img{
+    width: 100%;
+    height: 300px;
+ }
+ .btn{
+    float:inline-end;
+ }
+ .btn { 
+     -webkit-transition-duration: 0.1s;
+      transition-duration: 0.1s;}
+ .btn:hover { 
+     background-color: crimson;  color: white;
+ }
+ 
+ html, body{
+    height: 100%;
+    width: 100%;
+    font-family:'Poppins', sans-serif ;
+    color: #222;
+ }
+ .navbar{
+    padding: .8rem;
+ }
+ .navbar-nav li{
+    padding-right: 20px;
+ }
+ .navbar-link{
+    font-size: 1.1em !important;
+ }
+ .padding{
+    padding-bottom: 2rem;
+ }
+ .welcome{
+    width: 100%;
+    margin: 0;
+    padding-top: 0rem;
+ }
+ .social a{
+    font-size: 2.5em;
+    padding: 3rem;
+ }
+ .fa-facebook{
+    color: #3b5998;
+ }
+ .fa-twitter{
+    color: #00aced;
+ }
+ .fa-google-plus-g{
+    color:#dd4b39;
+ }
+ .fa-instagram{
+    color:deepskyblue;
+ }
+ .fa-youtube{
+    color: #bb0000;
+ }
+ .tenuser{
+   border-left: 3px solid black;
+   border-right: 3px solid black;
+   list-style-type: ;
+ }

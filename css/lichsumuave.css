@@ -1,0 +1,17 @@
+.lichsu{
+    margin: 0 50px;
+}
+.lichsu_top{
+    margin: 10px;
+    border: 1px solid black;
+}
+.lichsu_text{
+    margin: 10px;
+    border: 1px solid black;
+}
+.text_left{
+    border-right: 1px solid black;
+}
+.text_left h5, .text_right h5{
+    text-align: center;
+}
